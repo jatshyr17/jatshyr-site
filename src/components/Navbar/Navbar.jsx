@@ -22,7 +22,7 @@ function Navbar() {
        <AiOutlineMenu size={20}/>}</div>
      
     
-    <div className={!nav?'fixed left-0 top-0 w-[60%] h-full border-r border-r-gray-900 bg-[#000300] ease-in-out duration-1000 text-white  ':'fixed left-[-100%] ' }>
+    <div className={!nav?'fixed left-0 top-0 w-[60%] h-full border-r border-r-gray-900 bg-[#000300] ease-in-out duration-1000 text-white lg:hidden md:hidden ':'fixed left-[-100%] ' }>
     <h2 className='text-3xl font-bold w-full p-5'>JATSHYR</h2>
 
     <ul className='uppercase p-4'>
